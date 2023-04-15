@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Tiro Bangla', serif;
+}
+/* =============top navbr css start========= */
+.date-content iframe {
+    padding: 0px;
+    margin: 7px;
+    font-size: 16px;
+}
+.menu-item ul li {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+}
+.menu-item ul li a {
+    color: #2d2d2d;
+    font-size: 16px;
+}
+.menu-item ul li:hover a{
+    color: #000000;
+    font-weight: bold;
+    transition: all linear.3s;
+}
+.social-icon-item{
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin-top: 2px;
+}
+.social-icon-item a{
+    color: #000000;
+    font-size: 18px;
+    width: 7px;
+    height: 6px;
+    border-radius: 5px;
+}
+.social-icon-item a i{
+    justify-content: space-between;
+    margin: 3px;    
+    padding: 3px;
+    color: #fff;
+}
+.social-icon-item .social-icon-items-part {
+    width: 32px;
+    height: 29px;
+    border-radius: 7px;
+    background-color: #1cb7eb;
+    text-align: center;
+    margin-right: 14px;
+}
+.social-icon-item .social-icon-items-part:hover{
+    background-color: #383636;
+    transition: all linear.3s;
+}
+.social-icon-item .social-icon-items-part:last-child{
+    margin-right: 0px;
+}
+
+/* =============top navbr css end========= */
+
+/* =============top second navbr css start========== */
+
+
+.androaid-logo img {
+    width: 100px;
+    height: 35px;
+    margin-left: 5px;
+}
+.web-title{
+    text-align: center;
+}
+.web-title h3 {
+    color: #e43232;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 50px;
+}
+.language-button-content{
+    float: right;
+}
+.language-button-content button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    width: 83px;
+    height: 32px;
+    text-align: center;
+}
+
+/* =============top second navbr css end========== */
+
+/* =============main navbr css start===============*/
+
+#nav-bar {
+    background-color: #fff;
+    width: 100%;
+    height: 64px;
+    box-shadow: 0px 1px 5px -1px;
+}
+.sticky-menu{
+    z-index: 1;
+}
+.menu-bar-icon{
+    position: relative;
+    width: 50px;
+}
+.sub-menu-item-content {
+    display: flex;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 2px;
+    box-shadow: 0px 0px 5px 0px;
+    visibility: hidden;
+    opacity: 1;
+    z-index: 99999;
+
+}
+.menu-bar-icon:hover .sub-menu-item-content{
+    visibility: visible;
+    transition: all linear.4s;
+    opacity: 1;
+}
+.sub-menu-item-content ul {
+    width: 165px;
+    padding-left: 12px;
+    border-right: 1px solid #afafaf;
+}
+.sub-menu-item-content ul .home-content-title{
+    font-weight: bold;
+}
+.sub-menu-item-content ul li{
+    margin-top: 5px;
+}
+.sub-menu-item-content ul li a:hover{
+    font-weight: bold;
+    color: #e43232;
+}
+.menu-serch-home-part {
+    display: flex;
+    transform: translateY(16px);
+    justify-content: space-between;
+}
+.serch-bar-icon{
+    width: 50px;
+}
+.home-icon{
+    width: 50px;
+}
+.menu-bar-icon a{
+    color: #000;
+}
+.menu-bar-icon a i {
+    font-size: 25px;
+    transform: translateY(4px);
+}
+.serch-bar-icon a{
+    color: #000;
+}
+.home-icon a{
+    color: #000;
+}
+.serch-bar-icon a i {
+    font-size: 25px;
+    transform: translateY(4px);
+}
+.home-icon a i {
+    font-size: 25px;
+    transform: translateY(4px);
+}
+.nav-menu-item-content {
+    transform: translateY(8px);
+}
+.nav-menu-item-content ul li {
+    display: inline-flex;
+    margin: 4px;
+    padding: 8px;
+}
+.nav-menu-item-content ul li a{
+    color: #585858;
+    font-size: 18px;
+    position: relative;
+}
+.nav-menu-item-content ul li .one-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 100%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+/* .one-a:hover.one-a::after{
+    width: 100%;
+    transition: all linear.4s;
+} */
+.nav-menu-item-content ul li .two-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.two-a:hover.two-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .three-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.three-a:hover.three-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .four-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.four-a:hover.four-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .five-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.five-a:hover.five-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .six-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.six-a:hover.six-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .seven-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.seven-a:hover.seven-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .eight-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.eight-a:hover.eight-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .nine-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.nine-a:hover.nine-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li .ten-a::after{
+    content: '';
+    left: 0;
+    top: 25px;
+    width: 0%;
+    height: 2px;
+    background-color: #e43232;
+    position: absolute;
+}
+.ten-a:hover.ten-a::after{
+    width: 100%;
+    transition: all linear.4s;
+}
+.nav-menu-item-content ul li a:hover{
+    font-weight: bold;
+    transition: all linear.4s;
+}
+
+/* =============main navbr css end=================*/
+
+/* =============marquee css start=================*/
+.mrq-item{
+    width: 100%;
+    height: 33px;
+    background-color: #222f53;
+    display: block;
+}
+
+.scrooling-content a {
+    color: #fff;
+    transform: translateY(6px);
+    display: inline-block;
+    font-weight: bold;
+}
+.mrq-frend-div{
+    display: flex;
+}
+
+/* =============marquee css end=================*/
+
+/* =============Hole bangladesh news part css start=================*/
+
+.hole-news-content {
+    border-bottom: 1px solid #cbc7c7;
+    height: 80px;
+}
+
+.hole-news-content a{
+    color: #000;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.hole-news-content span a{
+    position: relative;
+}
+.hole-news-content span a::after {
+    content: '';
+    top: 36px;
+    left: 5px;
+    width: 30%;
+    height: 3px;
+    background-color: #e43232;
+    position: absolute;
+}
+.bd-dist-content{
+    position: relative;
+}
+.bd-dist-content span{
+    margin: 5px;
+    padding: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.bd-dist-content span::after {
+    content: '';
+    top: 4px;
+    width: 1px;
+    margin-left: 10px;
+    height: 15px;
+    background-color: #000;
+    position: absolute;
+}
+.bd-dist-content span:hover{
+    font-weight: bold;
+}
+
+/* =============Hole bangladesh news part css end=================*/
+
+
+/* =============Filter part css start=================*/
+
+#filter-part{
+    margin-top: 25px;
+   
+}
+.bborder{
+    border-bottom: 1px solid #c4c4c4;
+}
+.select-items select{
+    word-wrap: normal;
+    width: 100%;
+    padding: 13px 0;
+}
+.filter-serch-box button {
+    color: white;
+    background-color: #202d52;
+    padding: 9px;
+    border: none;
+    margin-top: 26px;
+}
+
+/* =============Filter part css end=================*/
+
+/* =============news content css start=================*/
+
+#bdnews-content-section{
+    margin-top: 50px;
+}
+.news-title span a{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.news-title span:hover a{
+    color: red;
+    transition: all linear.3s;
+}
+.bdnews-content-part-one{
+    padding-right: 17px;
+    border-right: 1px solid #cdcdcd;
+}
+.news-title p{
+    font-size: 15px;
+}
+.sub-news-content-part{
+    height: 96px;
+    text-align: center;
+    border-bottom: 1px solid #c2c2c2;
+}
+.sub-news-content-part span {
+    font-size: 19px;
+    padding: 12px;
+    cursor: pointer;
+}
+.sub-news-content-part:hover span{
+    color: red;
+}
+.sub-news-content-part img{
+    padding-top: 21px;
+}
+.bbr-btm{
+    margin-bottom: 24px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.sa{
+    border-bottom: 0px;
+}
+
+/* =============news content css end=================*/
+
+
+/* =============more news css start=================*/
+#more-news-option{
+    border-bottom: 1px solid #afafaf;
+}
+.more-title{
+    position: relative;
+}
+.more-title span::after {
+    content: '';
+    top: 38px;
+    left: 0;
+    width: 45%;
+    height: 3px;
+    position: absolute;
+    background: #f00;
+}
+.more-news-box{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+.more-news-box span{
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.more-news-box span a{
+    color: #000;
+}
+.more-news-box span::after {
+    content: '';
+    top: 200px;
+    left: 0;
+    width: 10%;
+    height: 3px;
+    position: absolute;
+    background-color: #f00;
+}
+.more-news-box p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.more-news-box p a{
+    color: #000;
+}
+.more-news-box p:hover a{
+    color: red;
+}
+.more-options-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.more-options-box span {
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.more-options-box span a{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* =============more news css end=================*/
+
+/* =============Image slider house css start=================*/
+#image-house-slider{
+    margin-top: 100px;
+}
+.image-house-slider-title{
+    margin-top: 12px;
+}
+.image-house-slider-title span {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline;
+    position: relative;
+}
+.image-house-slider-title span::after {
+    content: '';
+    top: 31px;
+    left: 0;
+    width: 34%;
+    height: 3px;
+    position: absolute;
+    background-color: #ff0000;
+}
+.image-slider{
+    position: relative;
+    margin-top: 20px;
+}
+.s-left{
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px;
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-377px);
+    padding-top: 12px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.s-right{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px;
+    text-align: center;
+    border-radius: 50%;
+    transform: translateY(-377px);
+    padding-top: 12px;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.image-slider-item{
+    position: relative;
+}
+.image-slider-item .slider-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(rgb(255 255 255 / 0%), rgb(0 0 0));
+}
+.overlay-content span {
+    color: white;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.overlay-content{
+    text-align: center;
+    position: absolute;
+    bottom: 65px;
+    left: 25%;
+}
+.overlay-content span a{
+    color: #fff;
+    padding: 3px;
+}
+.overlay-content span:hover a{
+    color: red;
+    transition: all linear.3s;
+}
+/* .image-slider{
+    width: 100%;
+    height: 100%;
+} */
+.image-slider-item{
+    display: flex;
+    width: 100%;
+}
+
+/* =============Image slider house css end=================*/
+
+
+/* =============footer part css start=================*/
+#footer{
+    width: 100%;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #acacac;
+}
+.footer-hadline{
+    position: relative;
+}
+.footer-hadline::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #acacac;
+}
+.footer-hadline h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 40px;
+}
+.footer-hadline h3 a{
+    margin-top: 50px;
+    color: #ff0000;
+}
+.footer-content ul li a{
+    color: #3b3b3b;
+    cursor: pointer;
+    position: relative;
+}
+.footer-content ul li a::after{
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    position: absolute;
+    background-color: #f00;
+    visibility: hidden;
+}
+.footer-content ul li a:hover::after{
+    visibility: visible;
+    width: 100%;
+    transition: all linear.3s;
+}
+.footer-content ul li span{
+    font-weight: bold;
+}
+/* =============footer part css end=================*/
+
+/* =============footer social part css start=================*/
+
+#social-part{
+    background-color: #f6f6f6;
+}
+.social-content-part{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.social-content-part .twiter-part{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 0px;
+    background-color: #4e71a8;
+    text-align: center;
+    cursor: pointer;
+}
+.social-content-part .twiter-part i {
+    transform: translate(0, 10px);
+    color: white;
+    font-size: 22px;
+}
+.social-content-part .facebook-part{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 0px;
+    background-color: #3b70c3;
+    text-align: center;
+    cursor: pointer;
+}
+.social-content-part .facebook-part i {
+    transform: translate(0, 10px);
+    color: white;
+    font-size: 22px;
+}
+.social-content-part .insta-part{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 0px;
+    background-color: #c13584;
+    text-align: center;
+    cursor: pointer;
+}
+.social-content-part .insta-part i {
+    transform: translate(0, 9px);
+    color: white;
+    font-size: 22px;
+}
+.social-content-part .youtube-part{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 0px;
+    background-color: #ff2a2a;
+    text-align: center;
+    cursor: pointer;
+}
+.social-content-part .youtube-part i {
+    transform: translate(0, 10px);
+    color: white;
+    font-size: 22px;
+}
+.social-content-part span {
+    margin-top: 8px;
+    font-size: 22px;
+    margin-right: 24px;
+    font-weight: 500;
+}
+
+
+.praiveci-hadline {
+    text-align: center;
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.disclimer-content{
+    position: relative;
+}
+.disclimer-content a::after {
+    content: '';
+    top: 0;
+    right: -12px;
+    width: 1px;
+    height: 22px;
+    background-color: #acacac;
+    position: absolute;
+}
+.about-content{
+    position: relative;
+}
+.about-content a::after {
+    content: '';
+    top: 0;
+    right: -12px;
+    width: 1px;
+    height: 22px;
+    background-color: #acacac;
+    position: absolute;
+}
+.praiveci-hadline .disclimer-content a{
+    color: #4e4e4e;
+}
+.praiveci-hadline .about-content a{
+    color: #4e4e4e;
+}
+.praiveci-hadline .contact-content a{
+    color: #4e4e4e;
+}
+.footer-web-app-logo{
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+}
+.footer-web-app-logo img{
+    margin-top: 7px;
+}
+.copyright-part {
+    width: 100%;
+    height: 40px;
+    margin-top: 39px;
+    text-align: center;
+    background-color: #202d52;
+    position: relative;
+}
+.copyright-part span {
+    color: #fff;
+    text-align: center;
+    display: inline;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    top: 0%;
+    position: absolute;
+}
+.sk-c{
+    left: 50%;
+}
+/* =============footer social part css end=================*/
